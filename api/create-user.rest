@@ -1,0 +1,25 @@
+# Identification(Regiter)
+POST  http://localhost:8080/auth/local/register
+Content-Type: application/json
+Authorization: bearer 4a72f4bce28b011ef8e4c64abaf8465dc382bb12df7a50a2633d6796374b29e560b4f40d5ee0637c5ce8d17ad81d006f51564c82dc1518993b32e7c2acd5275aa801131d1621528e4e0bee01aaac059bb384c02c1f402089c9fddad84280b828b72b71a59a61bd91225f249afc9187571b9abecb0f319d36f933d57d2a7c767e
+
+{
+    "username":"Kapman",
+    "email":"test@test.hotmail",
+    "password":"p@ssw0rd",
+}
+
+
+
+
+
+
+
+# Authentication(Login)
+POST  http://localhost:8080/auth/local
+Content-Type: application/json
+
+{
+    "identifier": "demo@demo.com",
+    "password": "p@ssw0rd" 
+}
