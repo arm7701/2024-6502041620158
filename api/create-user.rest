@@ -5,7 +5,7 @@ Authorization: bearer 4a72f4bce28b011ef8e4c64abaf8465dc382bb12df7a50a2633d679637
 
 {
     "username":"Kapman",
-    "email":"test@test.hotmail",
+    "email":"test_test@hotmail.com",
     "password":"p@ssw0rd",
 }
 
